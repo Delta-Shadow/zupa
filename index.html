@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zupa | A Game by Delta Shadow</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" src="howler.min.js"></script>
+	<script type="text/javascript">
+		var bg = new Howl({
+			urls: ["Data/bg.mp3"],
+			autoplay: true,
+			loop: true
+		})
+
+		var lost = new Howl({
+			urls: ["Data/Lost.mp3"]
+		})
+
+		var killed = new Howl({
+			urls: ["Data/Killed.mp3"]
+		})
+
+		var berrySpawn = new Howl({
+			urls: ["Data/berrySpawn.mp3"]
+		})
+	</script>
+</head>
+<body>
+	<div id="div">
+		<canvas id="canvas" width="1000" height="680"></canvas>
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
